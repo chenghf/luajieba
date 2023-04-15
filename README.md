@@ -1,7 +1,7 @@
 # luajieba 
 
 [![Author](https://img.shields.io/badge/author-@chenghf-blue?style=flat)](http://www.znlyq.cn/) 
-[![Platform](https://img.shields.io/badge/platform-Linux,%20OS%20X?style=flat)](https://github.com/yanyiwu/cppjieba)
+[![Platform](https://img.shields.io/badge/platform-Linux,%20OS%20X-green.svg?style=flat)](https://github.com/chenghf/luajieba))
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat)](http://chenghf.mit-license.org)
 
 结巴分词lua语言扩展
