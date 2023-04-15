@@ -24,6 +24,6 @@ lua example/example.lua
 
 ```
 ## base from
-+ [cjieba] C语言版本的结巴分词。
-+ [cppjieba] C++语言版本的结巴分词。
-+ [limonp]:https://github.com/yanyiwu/limonp
++ [cjieba](https://github.com/yanyiwu/cjieba) C语言版本的结巴分词。
++ [cppjieba](https://github.com/yanyiwu/cppjieba) C++语言版本的结巴分词。
++ [limonp](https://github.com/yanyiwu/limonp)
