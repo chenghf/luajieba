@@ -117,6 +117,7 @@ luaopen_jieba (lua_State *L)
 		lua_pushliteral(L, "must not access this metatable");
 		lua_settable(L, -3);
 	}
+
 	lua_pop(L, 1);
 
 	if (luaL_newmetatable(L, EXTRACTOR_METATABLE)) {
@@ -130,6 +131,7 @@ luaopen_jieba (lua_State *L)
 		lua_pushliteral(L, "must not access this metatable");
 		lua_settable(L, -3);
 	}
+
 	lua_pop(L, 1);
 
 	lua_pushliteral(L, "_VERSION");

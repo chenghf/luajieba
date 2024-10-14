@@ -182,7 +182,7 @@ lua_CutAll (lua_State *L)
 	handle = luaL_checkudata (L, 1, JIEBA_METATABLE);
 	src = luaL_checklstring (L, 2, &len);
 
-	char* words = CutAll (*handle, src, len, &cnt);
+	char *words = CutAll (*handle, src, len, &cnt);
 	char *pi = words;
 
 	lua_newtable(L);

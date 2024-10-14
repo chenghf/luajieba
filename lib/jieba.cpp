@@ -231,7 +231,7 @@ LookupTag (Jieba handle, const char *word)
 
 	buf = (char *) malloc (len + 1);
 
-	memset (buf, 0, sizeof(buf));
+	memset (buf, 0, len + 1);
 
 	strncpy (buf, tag.c_str(), len);
 

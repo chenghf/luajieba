@@ -8,13 +8,28 @@
 
 ## 用法示例
 
-首先下载 cppjieba 和 limonp, 添加符号连接
+下载 cppjieba (tag v5.4.0)
+git clone --branch v5.4.0 https://github.com/yanyiwu/cppjieba
 
-例如:
+下载 limonp (tag v1.0.0)
+git clone --branch v1.0.0 https://github.com/yanyiwu/limonp
+
+目录结构如下
+
 ```
+/--source
+  |--cppjieba
+  |--limonp
+  |--luajieba
+```
+
+添加符号连接
+
+```
+mkdir luajieba/deps
 cd luajieba/deps
-ln -s ../../cppjieba-5.1.0/include/limonp limonp
-ln -s ../../cppjieba-5.1.0/include/cppjieba cppjieba
+ln -s ../../limonp/include/limonp limonp
+ls -s ../../cppjieba/include/cppjieba cppjieba
 ```
 
 编译
@@ -22,7 +37,6 @@ ln -s ../../cppjieba-5.1.0/include/cppjieba cppjieba
 ```
 make
 lua example/example.lua
-
 ```
 ## base from
 + [cjieba](https://github.com/yanyiwu/cjieba) C语言版本的结巴分词。
